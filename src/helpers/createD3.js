@@ -4,9 +4,9 @@ import voxlens from 'voxlens';
 import startCase from 'lodash/startCase';
 
 const createD3 = options => {
-  const { data, debug, fillColor, title, xKey, yKey } = options;
+  const { data, elementId, fillColor, title, xKey, yKey } = options;
 
-  const container = document.getElementById('chart');
+  const container = document.getElementById(elementId);
   const maxXLabel = max(data.map(d => d[xKey].toString().length));
   const margin = { top: 20, right: 40, bottom: maxXLabel * 5 + 10, left: 70 };
   const height = 500 - margin.top - 20;
@@ -14,7 +14,7 @@ const createD3 = options => {
   const transform = margin.left + ',' + margin.top;
 
   const svg = d3
-    .select('#chart')
+    .select('#' + elementId)
     .append('svg')
     .attr('width', width + margin.left + margin.right)
     .attr('height', height + 40 + margin.top + margin.bottom)
@@ -26,7 +26,6 @@ const createD3 = options => {
   const y = d3.scaleLinear().range([height, 0]);
 
   const voxlensOptions = {
-    debug,
     x: xKey,
     y: yKey,
     title

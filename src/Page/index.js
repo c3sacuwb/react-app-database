@@ -29,14 +29,14 @@ class Page extends Component {
   ];
 
   createChart = () => {
-    const chartContainer = document.getElementById('chart');
+    const allData = this.props.db['Form Responses 1'];
 
-    if (chartContainer) {
-      chartContainer.innerHTML = '';
+    this.questions.forEach((q, i) => {
+      const chartContainer = document.getElementById('chart-' + (i + 1));
 
-      const allData = this.props.db['Form Responses 1'];
+      if (chartContainer) {
+        chartContainer.innerHTML = '';
 
-      this.questions.forEach(q => {
         const counts = countBy(allData, q.question);
         const data = q.choices.map(c => ({
           answer: c,
@@ -45,15 +45,16 @@ class Page extends Component {
 
         const settings = {
           ...this.settings,
+          elementId: 'chart-' + (i + 1),
           title: q.question,
           data
         };
 
         createD3(settings);
-      });
-    } else {
-      this.createChart();
-    }
+      } else {
+        this.createChart();
+      }
+    });
   };
 
   render() {
@@ -62,7 +63,9 @@ class Page extends Component {
         <h1 className="title">Results</h1>
         <div style={{ marginTop: '60px' }}>
           <div id="graph">
-            <div id="chart" />
+            {this.questions.map((_, i) => (
+              <div id={'chart-' + (i + 1)} key={i} />
+            ))}
           </div>
         </div>
       </div>

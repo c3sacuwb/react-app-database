@@ -1,0 +1,68 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mi-header-menu a {
+  text-decoration: none !important;
+  padding-top: 10px !important;
+  padding-bottom: 10px !important;
+}
+
+.distinct-text {
+  font-weight: bold;
+  font-family: 'Courier New', Courier, monospace;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.highlight {
+  background-color: aliceblue;
+  padding: 2px 5px;
+  border-radius: 4px;
+}
+
+h1 {
+  margin-bottom: 40px !important;
+}
+
+h2,
+h3 {
+  margin-bottom: 20px !important;
+}
+
+p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+p.citation {
+  margin-top: 20px;
+  border-top: 1px solid #ccc;
+  padding-top: 20px;
+  font-size: 16px;
+}
+
+.container {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+#members .card {
+  margin-top: 20px;
+}

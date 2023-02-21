@@ -1,0 +1,10 @@
+.DS_Store
+docs/
+node_modules/
+example/
+
+Makefile
+.eslintrc
+.babelrc
+.gitignore
+.npmrc

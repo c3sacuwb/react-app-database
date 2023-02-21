@@ -1,0 +1,84 @@
+section {
+  padding: 25px 0;
+  border-bottom: 1px solid #ccc;
+}
+
+section:first-of-type {
+  padding-top: 0;
+}
+
+section:last-of-type {
+  border: none;
+  padding-bottom: 0;
+}
+
+#page,
+#functionality-and-design-choices {
+  padding-top: 80px;
+}
+
+#page #graph {
+  margin-bottom: 30px;
+}
+
+#page .nav-tabs {
+  margin-top: 30px;
+}
+
+#page p {
+  text-align: justify;
+}
+
+#page .center {
+  text-align: center;
+  margin-top: 50px;
+}
+
+#page .quotation {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 18px;
+  font-style: italic;
+  background-color: cadetblue !important;
+}
+
+#page h1.title {
+  position: fixed;
+  display: contents;
+}
+
+#page .fixed-section {
+  position: fixed;
+}
+
+#page .sidebar div {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+#page .sidebar div.active-sidebar-item {
+  background-color: #eee;
+  font-weight: bold;
+}
+
+#page #qualitative-results .card-header,
+.modal-body {
+  font-size: 20px;
+}
+
+.modal-body {
+  padding: 40px !important;
+}
+
+.modal-body.figure {
+  text-align: center;
+}
+
+#page .citation-link,
+#page .data-link,
+#page .quotation-link,
+#page .figure-link {
+  color: steelblue;
+  cursor: pointer;
+}

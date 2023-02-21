@@ -7,7 +7,7 @@ import { NavLink } from 'react-router-dom';
 const Header = () => (
   <Navbar bg="light" variant="light" fixed="top">
     <Container>
-      <Navbar.Brand>Project Name</Navbar.Brand>
+      <Navbar.Brand>Computing Careers Club</Navbar.Brand>
       <Nav className="me-auto">
         <NavLink exact to="/">
           <span>Home</span>

@@ -23,16 +23,26 @@ class Page extends Component {
 
   questions = [
     {
-      question: 'Level of effort (Level of effort you put into the course)',
+      question: 'Class name',
+      choices: ['CSS422', 'CSS343', 'CSS401', 'CSS456', 'CSS 360']
+    },
+
+    {
+      question: 'Course content [Course organized to allow all students to participate fully]',
+      choices: ['Strongly agree', 'Neutral', 'Agree', 'Strongly disagree', 'Disagree']
+    },
+
+    {
+      question: 'Level of effort [Level of effort you put into the course]',
       choices: ['Poor', 'Fair', 'Satisfactory', 'Very good', 'Excellent']
     },
 
     {
-      question: 'Contribution to learning at the start of the course',
+      question: 'Contribution to learning [Level of skill/knowledge at start of course]',
       choices: ['Satisfactory', 'Excellent', 'Fair', 'Very Good', 'Excellent','Poor']
     },
     {
-      question: 'Contribution to learning at the end of the course',
+      question: 'Contribution to learning [Level of skill/knowledge required to complete the course]',
       choices: ['Satisfactory', 'Excellent', 'Fair', 'Very Good', 'Excellent','Poor']
     }
   ];

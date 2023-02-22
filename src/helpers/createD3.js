@@ -52,7 +52,7 @@ const createD3 = options => {
     .append('rect')
     .attr('class', 'bar')
     .style('fill', fillColor)
-    .style('margin', '30px')
+    .style('margin', '50px')
     .attr('x', d => x(d[xKey]))
     .attr('width', x.bandwidth())
     .attr('y', d => y(d[yKey]))

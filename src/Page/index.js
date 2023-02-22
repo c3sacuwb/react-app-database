@@ -23,8 +23,17 @@ class Page extends Component {
 
   questions = [
     {
-      question: 'Level of effort [Level of effort you put into the course]',
+      question: 'Level of effort (Level of effort you put into the course)',
       choices: ['Poor', 'Fair', 'Satisfactory', 'Very good', 'Excellent']
+    },
+
+    {
+      question: 'Contribution to learning at the start of the course',
+      choices: ['Satisfactory', 'Excellent', 'Fair', 'Very Good', 'Excellent','Poor']
+    },
+    {
+      question: 'Contribution to learning at the end of the course',
+      choices: ['Satisfactory', 'Excellent', 'Fair', 'Very Good', 'Excellent','Poor']
     }
   ];
 

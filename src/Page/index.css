@@ -58,7 +58,7 @@ section:last-of-type {
 }
 
 #page .sidebar div.active-sidebar-item {
-  background-color: #eee;
+  background-color: rgb(76, 8, 8);
   font-weight: bold;
 }
 
@@ -79,6 +79,6 @@ section:last-of-type {
 #page .data-link,
 #page .quotation-link,
 #page .figure-link {
-  color: steelblue;
+  color: rgb(2, 14, 23);
   cursor: pointer;
 }

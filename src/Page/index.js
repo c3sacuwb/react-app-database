@@ -16,7 +16,7 @@ class Page extends Component {
   }
 
   settings = {
-    fillColor: 'steelblue',
+    fillColor: 'lightBlue',
     xKey: 'answer',
     yKey: 'count'
   };

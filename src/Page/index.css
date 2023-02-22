@@ -15,10 +15,12 @@ section:last-of-type {
 #page,
 #functionality-and-design-choices {
   padding-top: 80px;
+  font-size: large;
 }
 
 #page #graph {
-  margin-bottom: 30px;
+  margin-bottom: 60px;
+  font-size: medium;
 }
 
 #page .nav-tabs {
@@ -32,12 +34,13 @@ section:last-of-type {
 #page .center {
   text-align: center;
   margin-top: 50px;
+  font-size: large;
 }
 
 #page .quotation {
   margin-top: 10px;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 60px;
   font-style: italic;
   background-color: cadetblue !important;
 }
@@ -64,7 +67,7 @@ section:last-of-type {
 
 #page #qualitative-results .card-header,
 .modal-body {
-  font-size: 20px;
+  font-size: 100px;
 }
 
 .modal-body {
@@ -73,6 +76,7 @@ section:last-of-type {
 
 .modal-body.figure {
   text-align: center;
+  font-size: large;
 }
 
 #page .citation-link,

@@ -11,6 +11,7 @@ const Header = () => (
       <Nav className="me-auto">
         <NavLink exact to="/">
           <span>Home</span>
+
         </NavLink>
       </Nav>
     </Container>

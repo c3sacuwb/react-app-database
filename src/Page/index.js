@@ -3,6 +3,8 @@ import PropTypes from 'prop-types';
 import countBy from 'lodash/countBy';
 import { withGoogleSheets } from 'react-db-google-sheets';
 import createD3 from '../helpers/createD3';
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 
 import './index.css';
 
@@ -86,6 +88,8 @@ class Page extends Component {
               <div id={'chart-' + (i + 1)} key={i} />
             ))}
           </div>
+          
+
         </div>
       </div>
     );

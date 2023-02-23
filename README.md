@@ -6,6 +6,7 @@ Blah blah
 ## Dev Environment Setup
 
 ```make install && npm start```
+```npm install react-bootstrap bootstrap```
 
 You should now be able to access the webpage at `http://localhost:3000`.
 

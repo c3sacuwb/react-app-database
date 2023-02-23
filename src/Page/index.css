@@ -42,7 +42,7 @@ section:last-of-type {
   margin-bottom: 10px;
   font-size: 60px;
   font-style: italic;
-  background-color: cadetblue !important;
+  background-color: rgb(38, 79, 7) !important;
 }
 
 #page h1.title {
